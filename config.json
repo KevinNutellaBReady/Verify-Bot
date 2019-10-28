@@ -1,0 +1,7 @@
+{
+    "token": "Put your Token in here",
+    "prefix": ":",
+    "command": "verify",
+    "message": "Okay, you have been verified. Please read our Rules, and have lot of fun on our Discord Server!",
+    "rule": "Verified"
+}
