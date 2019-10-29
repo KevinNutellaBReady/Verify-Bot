@@ -18,7 +18,7 @@ client.on('message', (msg) => {
           author = msg.member
 
     if(cont == config.prefix + config.command) {
-        var role = msg.guild.roles.find(role => role.name === config.rule);
+        var role = msg.guild.roles.find(role => role.name === config.role);
 
         author.addRole(role);
         msg.reply(config.message);
